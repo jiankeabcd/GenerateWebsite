@@ -3,73 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joe Zhao - Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Joe Zhao - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWI7clES9W75CGV-Bcxj248JnTz50rmHZS0Q&s" alt="Joe Zhao Logo">
-            </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWI7clES9W75CGV-Bcxj248JnTz50rmHZS0Q&s" alt="Joe Zhao Logo">
         </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="about" class="intro">
-        <div class="container">
-            <div class="intro-text">
+    <!-- Main Section -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="intro">
                 <h1>I am Joe Zhao</h1>
-                <p>Expert Web Designer & Developer with a focus on creating responsive, user-friendly websites.</p>
-            </div>
-            <div class="intro-image">
-                <img src="your-image-url-here.jpg" alt="Joe Zhao">
-            </div>
-        </div>
-    </section>
-    <section id="services" class="services">
-        <div class="container">
-            <h2>What I Do</h2>
-            <div class="services-list">
-                <div class="service-item">
-                    <h3>Web Design</h3>
-                    <p>Creating visually appealing and intuitive designs for all types of websites.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Responsive Development</h3>
-                    <p>Ensuring your website looks great and functions flawlessly on any device.</p>
-                </div>
-                <div class="service-item">
-                    <h3>UX/UI Design</h3>
-                    <p>Designing user interfaces that are easy to navigate and provide a seamless experience.</p>
+                <p>A middle school student with a passion for sailing and a future in artificial intelligence.</p>
+                <div class="portrait">
+                    <img src="https://images.desenio.com/zoom/18200-8snoopysurfboard50x70-88574-47905.jpg" alt="Joe Zhao's Portrait">
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Shall We Collaborate?</h2>
-            <p>I’m based in [Your Location] and work with clients worldwide.</p>
-            <a href="mailto:joe@example.com" class="contact-btn">Email me</a>
-        </div>
-    </section>
+            <div class="quote">
+                <p>"Exploring the seas today, building the AI of tomorrow."</p>
+            </div>
+        </section>
 
-    <footer class="footer">
-        <div class="container">
-            <ul class="social-links">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Email</a></li>
-            </ul>
-            <p>&copy; 2024 Joe Zhao. All Rights Reserved.</p>
-        </div>
+        <!-- My Work Section -->
+        <section id="work" class="work-section">
+            <h2>My Representative Works</h2>
+            <div class="work-gallery">
+                <div class="work-item">
+                    <a href="https://activenation.org.uk/venues/swac/learn-to-sail/" target="_blank">
+                        <img src="https://activenation.org.uk/wp-content/uploads/2021/04/121266508_3383127688433480_4761890977424461157_n-e1680779785906.jpg" alt="Work 1">
+                    </a>
+                    <p>Project 1: AI-Powered Web Design</p>
+                </div>
+                <div class="work-item">
+                    <a href="https://www.linkedin.com/pulse/coding-where-start-people-without-technical-background-avi-lewis" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMVE17GTbzqOIn4iQhv0RiTnDmshELq8HTVA&s" alt="Work 2">
+                    </a>
+                    <p>Project 2: Sailing Navigation App</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Shall we connect?</h2>
+            <p>I'm always open to new connections. Feel free to reach out via social media!</p>
+            <div class="social-icons">
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Joe Zhao. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
