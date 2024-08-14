@@ -141,3 +141,40 @@ footer {
     background-color: #333;
     color: #FFF8F4; /* Footer text color */
 }
+
+/* Scale Effect on Hover for Buttons */
+button:hover, 
+.contact-section button:hover, 
+.social-icons a:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Scale Effect on Hover for Images */
+img:hover, 
+.work-gallery .work-item img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Ensure the anime.js animations don't override the hover effects */
+button, 
+.contact-section button, 
+.social-icons a, 
+img, 
+.work-gallery .work-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Ensure uniform size for images in the Work Section */
+#work img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Maintain hover scale effect */
+#work img:hover {
+    transform: scale(1.05);
+}
